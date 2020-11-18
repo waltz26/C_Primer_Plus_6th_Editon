@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 #define CONVERT 100.0*3.785/1.609    //转换系数
 
 int main(void)
