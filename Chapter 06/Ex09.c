@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 float cal(float a,float b);
 
 int main()
