@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 void smile(void);
 
 int main(void)
