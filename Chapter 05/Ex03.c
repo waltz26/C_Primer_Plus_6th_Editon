@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 #define D_PER_W 7; 
 
 int main(void)

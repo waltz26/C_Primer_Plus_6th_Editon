@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 #define M_PER_H 60
 
 int main(void)

@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 #define CM_PER_INCH 2.54
 #define INCH_PER_FEET 12
 

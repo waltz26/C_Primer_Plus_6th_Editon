@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 void Temperatures(double fahr_para);
 
 int main(void)

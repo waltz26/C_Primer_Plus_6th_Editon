@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 void cube(double num_para);
 
 int main(void)
