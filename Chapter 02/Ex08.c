@@ -13,7 +13,7 @@ int main(void)
 void one_three(void)
 {
     printf("one\n");
-    two();
+    two();    //函数可以调用另一个函数
     printf("three\n");
 }
 void two(void)

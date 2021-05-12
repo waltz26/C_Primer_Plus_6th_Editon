@@ -4,7 +4,7 @@ void deny(void);
 
 int main(void)
 {
-    jolly();    //调用一次打印一条
+    jolly();    //函数调用
     jolly();
     jolly();
     deny();

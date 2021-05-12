@@ -5,7 +5,7 @@ void ic(void);
 int main(void)
 {
     br();    //第一行，注意空格
-    printf(", ");    
+    printf(", ");
     ic();
     printf("\n");
     ic();    //第二行
