@@ -6,9 +6,9 @@ int main(void)
 
     printf("Enter height(inch): ");
     scanf("%f",&height);
-    printf("And Enter your first and last name: ");
+    printf("And Enter your name: ");
     scanf("%s%*s",first_name);    //抑制输入名字的last_name部分
     printf("%s, you are %.3f feet tall\n",first_name,height/12);
-    
+
     return 0;
 }

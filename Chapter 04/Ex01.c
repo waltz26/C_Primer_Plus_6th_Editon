@@ -6,6 +6,6 @@ int main(void)
     printf("Enter your first and last name: ");
     scanf("%s%s",first_name,last_name);
     printf("%s,%s\n",first_name,last_name);
-    
+
     return 0;
 }

@@ -15,6 +15,6 @@ int main(void)
     printf("%*d %*d\n",len_first_name,len_first_name,len_last_name,len_last_name);
     printf("%s %s\n",first_name,last_name);
     printf("%-*d %-*d\n",len_first_name,len_first_name,len_last_name,len_last_name);
-    
+
     return 0;
 }
