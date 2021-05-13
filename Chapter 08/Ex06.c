@@ -8,7 +8,7 @@ void count(void);
 int main(void)
 {
     int choice;
-    
+
     while ((choice=get_choice())!='q')
     {
         switch (choice)
@@ -25,7 +25,7 @@ int main(void)
             default:
                 printf("Program error!\n");
                 break;
-        }   
+        }
     }
 
     printf("Bye.\n");
@@ -65,7 +65,7 @@ char get_first(void)
         continue;
     while (getchar()!='\n')
         continue;
-    
+
     return ch;
 }
 int get_int(void)

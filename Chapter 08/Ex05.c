@@ -1,11 +1,10 @@
 #include<stdio.h>
-
 int main(void)
 {
     char ch;
     int guess=50;
     int left=0,right=100;
-    
+
     printf("Pick an integer from 1 to 100. I will try to guess it.\n");
     printf("Respond with a y if my guess is right, with a b if is\n");
     printf("bigger than my guess and with a s if it is smaller than\n");

@@ -11,7 +11,7 @@ float get_float(void);
 int main(void)
 {
     int choice;
-    
+
 
     while ((choice=get_choice())!='q')
     {
@@ -109,7 +109,7 @@ char get_first(void)
         continue;
     while (getchar()!='\n')
         continue;
-    
+
     return ch;
 }
 float get_float(void)

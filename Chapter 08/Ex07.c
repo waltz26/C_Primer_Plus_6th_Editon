@@ -40,7 +40,7 @@ int main(void)
     }
 
     printf("Done!\n");
-    
+
     return 0;
 }
 
@@ -72,6 +72,6 @@ char get_first(void)
         continue;
     while (getchar()!='\n')
         continue;
-    
+
     return ch;
 }
