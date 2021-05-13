@@ -23,7 +23,7 @@ int main(void)
         printf("*****************************************************************\n");
 
         printf("Choose an option: ");
-        if (scanf("%d",&command)!=1) 
+        if (scanf("%d",&command)!=1)
             break;
         else if (command==1)
             basic_wage=basic_wage_1;
@@ -37,7 +37,7 @@ int main(void)
             break;
         else
             {printf("ERROR! Please enter the right option!\n"); continue;}
-        
+
         printf("Enter the number of hours worked in a week: ");
         scanf("%d",&work_hour);
 
@@ -59,6 +59,6 @@ int main(void)
     }
 
     printf("Done!\n");
-    
+
     return 0;
 }
