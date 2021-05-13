@@ -12,7 +12,7 @@ int main(void)
         printf("Enter next value(q or other non-digit to quit): ");
     }
     printf("Done!\n");
-    
+
     return 0;
 }
 void Temperatures(double fahr_para)

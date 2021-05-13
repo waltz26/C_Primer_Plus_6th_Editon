@@ -15,6 +15,6 @@ int main(void)
         scanf("%d",&first_operand);
     }
     printf("Done\n");
-    
+
     return 0;
 }
