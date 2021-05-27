@@ -29,7 +29,6 @@ double power(double x,int y)
     {
         if (x==0)
             printf("Warning:0 to the 0th power is undefined.\n");
-        ans=1;
     }
     
     return ans;
