@@ -9,7 +9,7 @@ int main(void)
 
     printf("The maximum value of the array is %d.\n",
         max_of_array(array,SIZE));
-    
+
     return 0;
 }
 int max_of_array(int *array,int size)

@@ -44,7 +44,7 @@ double total_average(double array[][5],int size)
     for (int i=0;i<size;i++)
         for (int j=0;j<5;j++)
             total+=array[i][j];
-    
+
     return total/15;
 }
 double max(double array[][5],int size)
@@ -65,6 +65,5 @@ void print(double *group_average,double total_average,double max,int size)
     printf("\n");
 
     printf("The average of all numbers: %g\n",total_average);
-
     printf("The maximum value of all types: %g\n",max);
 }

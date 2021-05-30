@@ -7,12 +7,12 @@ int main(void)
 {
     double array[SIZE]={1.2,4.3,0.1,4.4,5.6,6.3};
 
-    printf("Unsorted array.\n");
+    printf("Unsorted array:\n");
     for (int i=0;i<6;i++)
         printf("%g ",array[i]);
 
     select_sort(array,6);
-    printf("\nSorted array.\n");
+    printf("\nSorted array:\n");
     for (int i=0;i<6;i++)
         printf("%g ",array[i]);
     printf("\n");

@@ -36,6 +36,6 @@ int main(void)
         printf("%4.1f",subtot/YEARS);
     }
     printf("\n");
-    
+
     return 0;
 }

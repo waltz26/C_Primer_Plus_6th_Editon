@@ -54,4 +54,3 @@ void print_rain_month(int n,int m,const float rain[n][m])
         printf("%4.1f",subtot/YEARS);
     }
 }
-

@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define COL 6 
+#define COL 6
 #define ROW 6
 
 void copy_ptr(double *target,double *source,int size);
