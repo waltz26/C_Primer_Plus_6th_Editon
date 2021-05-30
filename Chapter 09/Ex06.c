@@ -4,7 +4,7 @@ void replace(double *x,double *y,double *z);
 int main(void)
 {
     double a,b,c;
-    
+
     scanf("%lf%lf%lf",&a,&b,&c);
     replace(&a,&b,&c);
     printf("%g %g %g",a,b,c);
