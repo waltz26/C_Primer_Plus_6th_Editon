@@ -3,7 +3,7 @@ int main(void)
 {
     unsigned int input;
     int pd;
-    
+
     printf("Enter a positive integer: ");
     scanf("%ud",&input);
 
@@ -23,8 +23,8 @@ int main(void)
         }
         printf("\n");
     }
-    
+
     printf("Done!\n");
-    
+
     return 0;
 }

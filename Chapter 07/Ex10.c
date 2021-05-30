@@ -22,7 +22,7 @@ int main()
         printf("***************************************\n");
 
         printf("Choose an option: ");
-        if (scanf("%d",&command)!=1) 
+        if (scanf("%d",&command)!=1)
             break;
         else if (command==1)
             limit=type_1_cut_off_point;
@@ -44,11 +44,11 @@ int main()
             taxes=income*not_exceeded_tax_rate;
         else
             taxes=limit*not_exceeded_tax_rate+(income-limit)*exceeded_tax_rate;
-    
+
         printf("Tax payable is $%.2f.\n",taxes);
     }
 
     printf("Done!\n");
-    
+
     return 0;
 }

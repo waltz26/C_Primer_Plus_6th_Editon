@@ -72,7 +72,7 @@ int main()
     else if (pound_total<=weight_line_2)
         cost_weight=weight_fee_2;
     else cost_weight=weight_fee_2+ceil(pound_total-weight_line_2)*weight_extra_fee;
-        
+
     printf("Here's your receipt:\n\n");
     printf("-----------------------------------------------------------------------------------\n");
     printf("|                                                                                 |\n");
