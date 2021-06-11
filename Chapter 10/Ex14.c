@@ -10,7 +10,7 @@ int main(void)
     double array[3][5],group_avg[3];
     double total_avg,max_num;
 
-    printf("Enter three groups of numbers, each group contains 5 double numbers.\n");
+    printf("Enter three groups of numbers, each group contains 5 double numbers:\n");
     read(3,5,array);
     group_average(3,5,array,group_avg);
     total_avg=total_average(3,5,array);
