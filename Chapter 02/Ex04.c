@@ -4,10 +4,10 @@ void deny(void);
 
 int main(void)
 {
-    jolly();    //函数调用
+    jolly();    //打印前3条消息
     jolly();
     jolly();
-    deny();
+    deny();    //打印最后1条消息
 
     return 0;
 }
