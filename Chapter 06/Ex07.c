@@ -7,7 +7,7 @@ int main(void)
 
     printf("Enter a word: ");
     scanf("%s",word);
-    for (i=strlen(word);i>=0;i--)
+    for (i=strlen(word);i>=0;i--)    //最后一个字符是'\0'
         printf("%c",word[i]);
     printf("\n");
 

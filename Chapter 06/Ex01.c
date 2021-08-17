@@ -2,7 +2,7 @@
 int main(void)
 {
     char alpha[27];
-    int i,j;    //j为计数器
+    int i,j;
 
     for (i='a',j=0;i<='z';i++,j++)
         alpha[j]=i;

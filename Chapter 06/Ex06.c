@@ -6,7 +6,7 @@ int main(void)
 
     printf("Enter the lower and upper limits of the form:\n");
     scanf("%d%d",&lo_lim,&up_lim);
-    printf("Origin    Square    Cube\n");
+    printf("(Origin)  (Square)  (Cube)\n");
     for (i=lo_lim;i<=up_lim;i++)
         printf("%-9d %-9d %-9d\n",i,i*i,i*i*i);
 

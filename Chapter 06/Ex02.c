@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(void)
 {
-    int r,c;    //行和列
+    int r,c;
 
     for (r=0;r<5;r++)
     {
