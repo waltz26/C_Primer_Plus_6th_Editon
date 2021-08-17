@@ -23,6 +23,6 @@ void Temperatures(double fahr_para)
 
     cels=convert_cels_1*(fahr_para-convert_cels_2);
     kelv=cels+convert_kelv;
-    printf("%.2f°F=%.2f°C=%.2fK\n\0",fahr_para,cels,kelv);
+    printf("%.2f°F=%.2f°C=%.2fK\n",fahr_para,cels,kelv);
     //在windows命令行中输入chcp 65001可以解决输出乱码的问题
 }

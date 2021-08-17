@@ -4,12 +4,19 @@ int main(void)
     int count;
     int sum,border;
 
+    printf("Enter a border (<=0 to quit): ");
     scanf("%d",&border);
-    count=0;
-    sum=0;
-    while (count++<border)
-        sum=sum+count*count;
-    printf("sum = %d\n",sum);
+    while (border>0)
+    {
+        count=0;
+        sum=0;
+        while (count++<border)
+            sum=sum+count*count;
+        printf("sum = %d\n",sum);
+        printf("Enter next border (<=0 to quit): ");
+        scanf("%d",&border);
+    }
+    printf("Done!\n");
 
     return 0;
 }
