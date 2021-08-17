@@ -8,6 +8,6 @@ int main(void)
     printf("fixed-point notation: %f\n",f_value);
     printf("exponential notation: %e\n",f_value);
     printf("p notation: %a\n",f_value);
-    
+
     return 0;
 }

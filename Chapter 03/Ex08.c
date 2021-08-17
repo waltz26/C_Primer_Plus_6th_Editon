@@ -8,7 +8,7 @@ int main(void)
 
     printf("Enter the number of cups: ");
     scanf("%f",&cup);
-    printf("%f cup(s)=%f pint(s)=%f ounce(s)=%f tablespoon(s)=%f teaspoon(s)\n",cup,0.5*cup,8.0*cup,16*cup,48*cup);
-    
+    printf("%.2f cup(s)=%.2f pint(s)=%.2f ounce(s)=%.2f tablespoon(s)=%.2f teaspoon(s)\n",cup,0.5*cup,8.0*cup,16*cup,48*cup);
+
     return 0;
 }

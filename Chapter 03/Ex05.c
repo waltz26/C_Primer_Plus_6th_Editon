@@ -6,6 +6,6 @@ int main(void)
     printf("Enter your age: ");
     scanf("%f",&age);
     printf("Your age corresponds to %e seconds.\n",3.156e7*age);
-     
+
     return 0;
 }
