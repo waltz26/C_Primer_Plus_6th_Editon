@@ -6,7 +6,7 @@ void transform(const double *source,double *target,int num,double (*f)(double));
 double calc1(double x);
 double calc2(double x);
 
-int main()
+int main(void)
 {
     const double s[SIZE]={0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0};
     double t[SIZE];
