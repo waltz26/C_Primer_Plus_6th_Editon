@@ -30,7 +30,7 @@ int main(void)
         printf("e) Delete a seat assignment\n");
         printf("f) Quit\n");
 
-        printf("Enter your choice:");
+        printf("Enter your choice: ");
         choice=getchar();
         while (getchar()!='\n')
             continue;

@@ -31,7 +31,7 @@ int main(void)
         printf("Welcome to the Giant Airways booking system,\n");
         printf("below are the available flights:\n");
         printf("1)102    2)311    3)444    4)519\n");
-        printf("Choose a flight or press 'q' to quit:");
+        printf("Choose a flight or press 'q' to quit: ");
 
         if (scanf("%d",&choice)!=1)
             break;
@@ -66,7 +66,7 @@ void flight_menu(int id)
         printf("f) Confirm seat assignments for this flight\n");
         printf("g) Quit\n");
 
-        printf("Enter your choice:");
+        printf("Enter your choice: ");
         choice=get_first();
 
         switch (choice)
